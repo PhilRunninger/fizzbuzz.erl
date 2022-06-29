@@ -1,0 +1,21 @@
+{
+  "image_name": "cyberdojofoundation/erlang_eunit:b6ba3e3",
+  "display_name": "Erlang, eunit",
+  "filename_extension": [
+    ".erl"
+  ],
+  "max_seconds": 10,
+  "tab_size": 2,
+  "exercise": "Fizz Buzz",
+  "version": 2,
+  "created": [
+    2022,
+    6,
+    29,
+    21,
+    2,
+    53,
+    544433
+  ],
+  "id": "Z4EHgd"
+}
