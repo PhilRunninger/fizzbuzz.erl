@@ -25,3 +25,7 @@ convert_5x_test() ->
 convert_15x_test() ->
   ?assertEqual("FizzBuzz", fizzbuzz:convert(15)),
   ?assertEqual("FizzBuzz", fizzbuzz:convert(30)).
+
+convert_non_fizz_buzz_test() ->
+  ?assertEqual(2, fizzbuzz:convert(2)),
+  ?assertEqual(4, fizzbuzz:convert(4)).
