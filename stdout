@@ -1,15 +1,1 @@
-fizzbuzz_tests: convert_non_fizz_buzz_test...*failed*
-in function fizzbuzz:convert/1 (fizzbuzz.erl, line 7)
-  called as convert(2)
-in call from fizzbuzz_tests:'-convert_non_fizz_buzz_test/0-fun-0-'/0 (fizzbuzz_tests.erl, line 30)
-in call from fizzbuzz_tests:convert_non_fizz_buzz_test/0 (fizzbuzz_tests.erl, line 30)
-in call from eunit_test:'-mf_wrapper/2-fun-0-'/2 (eunit_test.erl, line 273)
-in call from eunit_test:run_testfun/1 (eunit_test.erl, line 71)
-in call from eunit_proc:run_test/1 (eunit_proc.erl, line 522)
-in call from eunit_proc:with_timeout/3 (eunit_proc.erl, line 347)
-in call from eunit_proc:handle_test/2 (eunit_proc.erl, line 505)
-**error:function_clause
-  output:<<"">>
-
-=======================================================
-  Failed: 1.  Skipped: 0.  Passed: 8.
+  All 9 tests passed.

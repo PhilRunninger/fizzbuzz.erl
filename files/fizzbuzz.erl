@@ -6,4 +6,5 @@ answer(5) -> [1,2,"Fizz",4,"Buzz"].
 
 convert(N) when N rem 15 == 0 -> "FizzBuzz";
 convert(N) when N rem 3 == 0 -> "Fizz";
-convert(N) when N rem 5 == 0 -> "Buzz".
+convert(N) when N rem 5 == 0 -> "Buzz";
+convert(N) -> N.
