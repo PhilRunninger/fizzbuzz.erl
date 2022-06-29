@@ -10,5 +10,5 @@ final_answer2_test() ->
 convert_3_test() ->
   ?assertEqual("Fizz", fizzbuzz:convert(3)).
   
-convert_3_test() ->
+convert_5_test() ->
   ?assertEqual("Buzz", fizzbuzz:convert(5)).  
