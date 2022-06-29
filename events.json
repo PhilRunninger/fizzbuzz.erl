@@ -155,5 +155,21 @@
       6,
       197246
     ]
+  },
+  {
+    "duration": 1.058307,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 10,
+    "time": [
+      2022,
+      6,
+      29,
+      21,
+      19,
+      9,
+      618000
+    ]
   }
 ]
