@@ -1,2 +1,1 @@
-fizzbuzz.erl:5: syntax error before: '('
-fizzbuzz.erl:2: function answer/1 undefined
+  All 3 tests passed.
