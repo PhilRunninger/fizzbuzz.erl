@@ -1,1 +1,18 @@
-  All 7 tests passed.
+fizzbuzz_tests: convert_15x_test...*failed*
+in function fizzbuzz_tests:'-convert_15x_test/0-fun-0-'/0 (fizzbuzz_tests.erl, line 26)
+in call from fizzbuzz_tests:convert_15x_test/0 (fizzbuzz_tests.erl, line 26)
+in call from eunit_test:'-mf_wrapper/2-fun-0-'/2 (eunit_test.erl, line 273)
+in call from eunit_test:run_testfun/1 (eunit_test.erl, line 71)
+in call from eunit_proc:run_test/1 (eunit_proc.erl, line 522)
+in call from eunit_proc:with_timeout/3 (eunit_proc.erl, line 347)
+in call from eunit_proc:handle_test/2 (eunit_proc.erl, line 505)
+in call from eunit_proc:tests_inorder/3 (eunit_proc.erl, line 447)
+**error:{assertEqual,[{module,fizzbuzz_tests},
+              {line,26},
+              {expression,"fizzbuzz : convert ( 15 )"},
+              {expected,"FizzBuzz"},
+              {value,"Fizz"}]}
+  output:<<"">>
+
+=======================================================
+  Failed: 1.  Skipped: 0.  Passed: 7.
