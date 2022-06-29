@@ -1,10 +1,1 @@
-fizzbuzz_tests: final_answer_test (module 'fizzbuzz_tests')...*failed*
-in function fizzbuzz:answer/1
-  called as answer(15)
-in call from fizzbuzz_tests:'-final_answer_test/0-fun-0-'/0 (fizzbuzz_tests.erl, line 5)
-in call from fizzbuzz_tests:final_answer_test/0
-**error:undef
-  output:<<"">>
-
-=======================================================
-  Failed: 1.  Skipped: 0.  Passed: 1.
+fizzbuzz_tests.erl:4: syntax error before: '#'
