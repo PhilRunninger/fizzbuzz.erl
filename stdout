@@ -1,0 +1,18 @@
+hiker_tests: life_the_universe_and_everything_test (module 'hiker_tests')...*failed*
+in function hiker_tests:'-life_the_universe_and_everything_test/0-fun-0-'/0 (hiker_tests.erl, line 6)
+in call from eunit_test:'-mf_wrapper/2-fun-0-'/2 (eunit_test.erl, line 273)
+in call from eunit_test:run_testfun/1 (eunit_test.erl, line 71)
+in call from eunit_proc:run_test/1 (eunit_proc.erl, line 522)
+in call from eunit_proc:with_timeout/3 (eunit_proc.erl, line 347)
+in call from eunit_proc:handle_test/2 (eunit_proc.erl, line 505)
+in call from eunit_proc:tests_inorder/3 (eunit_proc.erl, line 447)
+in call from eunit_proc:with_timeout/3 (eunit_proc.erl, line 337)
+**error:{assertEqual,[{module,hiker_tests},
+              {line,6},
+              {expression,"hiker : answer ( )"},
+              {expected,42},
+              {value,54}]}
+  output:<<"">>
+
+=======================================================
+  Failed: 1.  Skipped: 0.  Passed: 0.
