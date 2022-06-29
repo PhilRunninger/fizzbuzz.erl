@@ -107,5 +107,21 @@
       53,
       909267
     ]
+  },
+  {
+    "duration": 7.468,
+    "colour": "red",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 7,
+    "time": [
+      2022,
+      6,
+      29,
+      21,
+      14,
+      32,
+      104928
+    ]
   }
 ]
