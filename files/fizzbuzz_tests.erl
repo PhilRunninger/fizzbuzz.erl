@@ -8,4 +8,4 @@ final_answer2_test() ->
   ?assertEqual([1,2,"Fizz",4,"Buzz"], fizzbuzz:answer(5)).
 
 convert_3_test() ->
-  ?assertEqual("Fizz", convert(3)).
+  ?assertEqual("Fizz", fizzbuzz:convert(3)).
