@@ -1,2 +1,1 @@
-fizzbuzz.erl:8: syntax error before: convert
-fizzbuzz.erl:2: function convert/1 undefined
+  All 6 tests passed.
