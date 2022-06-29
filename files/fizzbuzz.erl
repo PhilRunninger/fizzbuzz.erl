@@ -5,4 +5,4 @@ answer(15) -> [1,2,"Fizz",4,"Buzz","Fizz",7,8,"Fizz","Buzz",11,"Fizz",13,14,"Fiz
 answer(5) -> [1,2,"Fizz",4,"Buzz"].
 
 convert(N) when N rem 3 == 0 -> "Fizz";
-convert(5) -> "Buzz".
+convert(N) when N rem 5 == 0 -> "Buzz".
