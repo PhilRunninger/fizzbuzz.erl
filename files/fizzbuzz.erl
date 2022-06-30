@@ -1,10 +1,10 @@
 -module(fizzbuzz).
 -export([answer/1, convert/1]).
 
-answer(N) -> answer(1, N, []).
+answer(N) -> answer(0, N, []).
 
 answer(_Max, _Max, Result) -> lists:reverse(Result);
-answer(N, Max, Result) -> answer(N+1, Max, [convert(N)|Result]).
+answer(N, Max, Result) -> answer(N+1, Max, [convert(N+1)|Result]).
 
 convert(N) when N rem 15 == 0 -> "FizzBuzz";
 convert(N) when N rem 3 == 0 -> "Fizz";
