@@ -46,3 +46,15 @@ what_if_it_isnt_3_and_5_or_fizz_and_buzz_test() ->
   ?assertEqual("Cat", fizzbuzz:convert(7,Translations)),  
   ?assertEqual("BobCat", fizzbuzz:convert(28,Translations)),
   ?assertEqual(2, fizzbuzz:convert(2,Translations)).
+  
+more_than_two_translations_test() ->
+  Translations = [{3,"Larry"},{4,"Curly"},{5,"Moe"}].
+  ?assertEqual("Larry", fizzbuzz:convert(3,Translations)),
+  ?assertEqual("Curly", fizzbuzz:convert(4,Translations)),  
+  ?assertEqual("Moe", fizzbuzz:convert(5,Translations)),
+  ?assertEqual("LarryCurly", fizzbuzz:convert(12,Translations)),
+  ?assertEqual("LarryMoe", fizzbuzz:convert(15,Translations)),
+  ?assertEqual("CurlyMoe", fizzbuzz:convert(20,Translations)),
+  ?assertEqual("LarryCurlyMoe", fizzbuzz:convert(60,Translations)),
+  ?assertEqual(2, fizzbuzz:convert(2,Translations)).
+  
