@@ -3,12 +3,19 @@ fizzbuzz.erl:16: Warning: function answer/4 is unused
 fizzbuzz.erl:24: Warning: variable 'From' is unused
 fizzbuzz.erl:24: Warning: variable 'To' is unused
 fizzbuzz_tests: user_specified_convert_test...*failed*
-in function string:join/1
-  called as join(["Fizz"])
-in call from fizzbuzz_tests:'-user_specified_convert_test/0-fun-0-'/0 (fizzbuzz_tests.erl, line 37)
-in call from fizzbuzz_tests:user_specified_convert_test/0 (fizzbuzz_tests.erl, line 37)
-in call from fizzbuzz_tests:user_specified_convert_test/0
-**error:undef
+in function fizzbuzz_tests:'-user_specified_convert_test/0-fun-1-'/0 (fizzbuzz_tests.erl, line 38)
+in call from fizzbuzz_tests:user_specified_convert_test/0 (fizzbuzz_tests.erl, line 38)
+in call from eunit_test:'-mf_wrapper/2-fun-0-'/2 (eunit_test.erl, line 273)
+in call from eunit_test:run_testfun/1 (eunit_test.erl, line 71)
+in call from eunit_proc:run_test/1 (eunit_proc.erl, line 522)
+in call from eunit_proc:with_timeout/3 (eunit_proc.erl, line 347)
+in call from eunit_proc:handle_test/2 (eunit_proc.erl, line 505)
+in call from eunit_proc:tests_inorder/3 (eunit_proc.erl, line 447)
+**error:{assertEqual,[{module,fizzbuzz_tests},
+              {line,38},
+              {expression,"fizzbuzz : convert ( 5 , [ { 5 , \"Buzz\" } , { 5 , \"Buzz\" } ] )"},
+              {expected,"Buzz"},
+              {value,"BuzzBuzz"}]}
   output:<<"">>
 
 =======================================================
