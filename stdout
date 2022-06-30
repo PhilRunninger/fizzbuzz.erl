@@ -1,1 +1,3 @@
-fizzbuzz_tests.erl:34: function answer/2 undefined
+fizzbuzz.erl:24: Warning: variable 'From' is unused
+fizzbuzz.erl:24: Warning: variable 'To' is unused
+  All 13 tests passed.
