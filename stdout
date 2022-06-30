@@ -11,12 +11,7 @@ in call from eunit_proc:with_timeout/3 (eunit_proc.erl, line 337)
               {line,5},
               {expression,"fizzbuzz : answer ( 15 )"},
               {expected,[1,2,"Fizz",4,"Buzz","Fizz",7,8,"Fizz","Buzz",11|...]},
-              {value,[[[[[[[[[[[...]|...],70|...]|7]|8],70,105,122,122],
-                          66,117,122,122]|
-                         11],
-                        70,105,122,122]|
-                       13]|
-                      14]}]}
+              {value,[1,2,"Fizz",4,"Buzz","Fizz",7,8,"Fizz",[...]|...]}]}
   output:<<"">>
 
 fizzbuzz_tests: final_answer2_test...*failed*
@@ -32,7 +27,7 @@ in call from eunit_proc:with_timeout/3 (eunit_proc.erl, line 337)
               {line,8},
               {expression,"fizzbuzz : answer ( 5 )"},
               {expected,[1,2,"Fizz",4,"Buzz"]},
-              {value,[[[[[]|1]|2],70,105,122,122]|4]}]}
+              {value,[1,2,"Fizz",4]}]}
   output:<<"">>
 
 =======================================================

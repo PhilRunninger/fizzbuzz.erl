@@ -443,5 +443,21 @@
       11,
       634870
     ]
+  },
+  {
+    "duration": 7.870586,
+    "colour": "red",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 28,
+    "time": [
+      2022,
+      6,
+      30,
+      12,
+      40,
+      58,
+      384155
+    ]
   }
 ]
