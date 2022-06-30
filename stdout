@@ -1,2 +1,39 @@
-fizzbuzz.erl:7: syntax error before: '||'
-fizzbuzz.erl:4: function answer/3 undefined
+fizzbuzz_tests: final_answer_test...*failed*
+in function fizzbuzz_tests:'-final_answer_test/0-fun-0-'/0 (fizzbuzz_tests.erl, line 5)
+in call from eunit_test:'-mf_wrapper/2-fun-0-'/2 (eunit_test.erl, line 273)
+in call from eunit_test:run_testfun/1 (eunit_test.erl, line 71)
+in call from eunit_proc:run_test/1 (eunit_proc.erl, line 522)
+in call from eunit_proc:with_timeout/3 (eunit_proc.erl, line 347)
+in call from eunit_proc:handle_test/2 (eunit_proc.erl, line 505)
+in call from eunit_proc:tests_inorder/3 (eunit_proc.erl, line 447)
+in call from eunit_proc:with_timeout/3 (eunit_proc.erl, line 337)
+**error:{assertEqual,[{module,fizzbuzz_tests},
+              {line,5},
+              {expression,"fizzbuzz : answer ( 15 )"},
+              {expected,[1,2,"Fizz",4,"Buzz","Fizz",7,8,"Fizz","Buzz",11|...]},
+              {value,[[[[[[[[[[[...]|...],70|...]|7]|8],70,105,122,122],
+                          66,117,122,122]|
+                         11],
+                        70,105,122,122]|
+                       13]|
+                      14]}]}
+  output:<<"">>
+
+fizzbuzz_tests: final_answer2_test...*failed*
+in function fizzbuzz_tests:'-final_answer2_test/0-fun-0-'/0 (fizzbuzz_tests.erl, line 8)
+in call from eunit_test:'-mf_wrapper/2-fun-0-'/2 (eunit_test.erl, line 273)
+in call from eunit_test:run_testfun/1 (eunit_test.erl, line 71)
+in call from eunit_proc:run_test/1 (eunit_proc.erl, line 522)
+in call from eunit_proc:with_timeout/3 (eunit_proc.erl, line 347)
+in call from eunit_proc:handle_test/2 (eunit_proc.erl, line 505)
+in call from eunit_proc:tests_inorder/3 (eunit_proc.erl, line 447)
+in call from eunit_proc:with_timeout/3 (eunit_proc.erl, line 337)
+**error:{assertEqual,[{module,fizzbuzz_tests},
+              {line,8},
+              {expression,"fizzbuzz : answer ( 5 )"},
+              {expected,[1,2,"Fizz",4,"Buzz"]},
+              {value,[[[[[]|1]|2],70,105,122,122]|4]}]}
+  output:<<"">>
+
+=======================================================
+  Failed: 2.  Skipped: 0.  Passed: 7.
