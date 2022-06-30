@@ -30,8 +30,8 @@ convert_non_fizz_buzz_test() ->
   ?assertEqual(2, fizzbuzz:convert(2)),
   ?assertEqual(4, fizzbuzz:convert(4)).
 
-%what_if_its_not_3_and_5_test() ->
-%  ?assertEqual([1,2,3,"Bob",5,"Cat",7,"Bob",9,10,11,"BobCat"], answer(12,[{4,"Bob"},{6,"Cat"}])).
+what_if_its_not_3_and_5_test() ->
+  ?assertEqual([1,2,3,"Bob",5,"Cat",7,"Bob",9,10,11,"BobCat"], answer(12,[{4,"Bob"},{6,"Cat"}])).
 
 user_specified_convert_test() ->
   Translations = [{3,"Fizz"},{5,"Buzz"}],

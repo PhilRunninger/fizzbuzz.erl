@@ -619,5 +619,21 @@
       16,
       898556
     ]
+  },
+  {
+    "duration": 1.032877,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 39,
+    "time": [
+      2022,
+      6,
+      30,
+      13,
+      17,
+      32,
+      298
+    ]
   }
 ]
