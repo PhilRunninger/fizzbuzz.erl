@@ -3,9 +3,8 @@ fizzbuzz.erl:16: Warning: function answer/4 is unused
 fizzbuzz.erl:24: Warning: variable 'From' is unused
 fizzbuzz.erl:24: Warning: variable 'To' is unused
 fizzbuzz_tests: user_specified_convert_test...*failed*
-in function list:reverse/1
-  called as reverse(["Fizz"])
-in call from fizzbuzz:convert/3 (fizzbuzz.erl, line 22)
+in function string:join/1
+  called as join(["Fizz"])
 in call from fizzbuzz_tests:'-user_specified_convert_test/0-fun-0-'/0 (fizzbuzz_tests.erl, line 37)
 in call from fizzbuzz_tests:user_specified_convert_test/0 (fizzbuzz_tests.erl, line 37)
 in call from fizzbuzz_tests:user_specified_convert_test/0

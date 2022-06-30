@@ -19,7 +19,7 @@ answer(N, Max, Translations, Result) -> answer(N+1, Max, Translations, [convert(
 convert(N, Translations) -> convert(N, Translations, []).
 
 convert(N, [], []) -> N;
-convert(_, [], Result) -> string:join(list:reverse(Result));
+convert(_, [], Result) -> string:join(lists:reverse(Result));
 convert(N, [{From,To}|T], Result) when N rem From == 0 -> convert(N, T, [To|Result]);
 convert(N, [{From,To}|T], Result) -> convert(N, T, Result).
 
