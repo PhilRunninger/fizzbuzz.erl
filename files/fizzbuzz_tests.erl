@@ -39,3 +39,10 @@ user_specified_convert_test() ->
   ?assertEqual("Buzz", fizzbuzz:convert(5,Translations)),  
   ?assertEqual("FizzBuzz", fizzbuzz:convert(15,Translations)),
   ?assertEqual(2, fizzbuzz:convert(2,Translations)).
+
+what_if_it_isnt_3_and_5_or_fizz_and_buzz_test() ->
+  Translations = [{4,"Bob"},{7,"Cat"}],
+  ?assertEqual("Bob", fizzbuzz:convert(4,Translations)),
+  ?assertEqual("Cat", fizzbuzz:convert(7,Translations)),  
+  ?assertEqual("BobCat", fizzbuzz:convert(28,Translations)),
+  ?assertEqual(2, fizzbuzz:convert(2,Translations)).

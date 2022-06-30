@@ -2,4 +2,4 @@ fizzbuzz.erl:14: Warning: function answer/2 is unused
 fizzbuzz.erl:16: Warning: function answer/4 is unused
 fizzbuzz.erl:24: Warning: variable 'From' is unused
 fizzbuzz.erl:24: Warning: variable 'To' is unused
-  All 10 tests passed.
+  All 11 tests passed.
