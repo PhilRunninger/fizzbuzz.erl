@@ -1,12 +1,11 @@
 fizzbuzz.erl:14: Warning: function answer/2 is unused
 fizzbuzz.erl:16: Warning: function answer/4 is unused
-fizzbuzz.erl:19: Warning: function convert/2 is unused
-fizzbuzz.erl:21: Warning: function convert/3 is unused
 fizzbuzz.erl:24: Warning: variable 'From' is unused
 fizzbuzz.erl:24: Warning: variable 'To' is unused
 fizzbuzz_tests: user_specified_convert_test...*failed*
-in function fizzbuzz:convert/2
-  called as convert(3,[{3,"Fizz"},{5,"Buzz"}])
+in function list:reverse/1
+  called as reverse(["Fizz"])
+in call from fizzbuzz:convert/3 (fizzbuzz.erl, line 22)
 in call from fizzbuzz_tests:'-user_specified_convert_test/0-fun-0-'/0 (fizzbuzz_tests.erl, line 37)
 in call from fizzbuzz_tests:user_specified_convert_test/0 (fizzbuzz_tests.erl, line 37)
 in call from fizzbuzz_tests:user_specified_convert_test/0
