@@ -1,5 +1,5 @@
 -module(fizzbuzz).
--export([answer/1, convert/1, convert/2]).
+-export([answer/1, answer/2, convert/1, convert/2]).
 
 answer(N) -> answer(0, N, []).
 
