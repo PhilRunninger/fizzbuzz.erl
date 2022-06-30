@@ -1,3 +1,1 @@
-fizzbuzz.erl:24: Warning: variable 'From' is unused
-fizzbuzz.erl:24: Warning: variable 'To' is unused
   All 13 tests passed.
