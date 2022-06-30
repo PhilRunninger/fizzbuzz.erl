@@ -34,7 +34,8 @@ convert_non_fizz_buzz_test() ->
 %  ?assertEqual([1,2,3,"Bob",5,"Cat",7,"Bob",9,10,11,"BobCat"], answer(12,[{4,"Bob"},{6,"Cat"}])).
 
 user_specified_convert_test() ->
-  ?assertEqual("Fizz", fizzbuzz:convert(3,[{3,"Fizz"},{5,"Buzz"}])),
-  ?assertEqual("Buzz", fizzbuzz:convert(5,[{5,"Buzz"},{5,"Buzz"}])),  
-  ?assertEqual("FizzBuzz", fizzbuzz:convert(15,[{3,"Fizz"},{5,"Buzz"}])),
-  ?assertEqual(2, fizzbuzz:convert(2,[{3,"Fizz"},{5,"Buzz"}])).
+  Translations = [{3,"Fizz"},{5,"Buzz"}],
+  ?assertEqual("Fizz", fizzbuzz:convert(3,Translations)),
+  ?assertEqual("Buzz", fizzbuzz:convert(5,Translations)),  
+  ?assertEqual("FizzBuzz", fizzbuzz:convert(15,Translations)),
+  ?assertEqual(2, fizzbuzz:convert(2,Translations)).
