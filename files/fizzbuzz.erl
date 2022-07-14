@@ -5,13 +5,13 @@ answer(N) -> answer(N, [{3,"Fizz"},{5,"Buzz"}]).
 
 answer(N,Translations) -> answer(0, N, Translations, []).
 
-answer(_Max, _Max, _, Result) -> lists:reverse(Result);
-answer(N, Max, Translations, Result) -> answer(N+1, Max, Translations, [convert(N+1,Translations)|Result]).
+answer(_N, _N, _, Result) -> lists:reverse(Result);
+answer(I, N, Translations, Result) -> answer(I+1, N, Translations, [convert(I+1,Translations)|Result]).
 
-convert(N, Translations) -> convert(N, Translations, []).
+convert(I, Translations) -> convert(I, Translations, []).
 
-convert(N, [], []) -> N;
+convert(I, [], []) -> I;
 convert(_, [], Result) -> string:join(lists:reverse(Result),"");
-convert(N, [{From,To}|T], Result) when N rem From == 0 -> convert(N, T, [To|Result]);
-convert(N, [_|T], Result) -> convert(N, T, Result).
+convert(I, [{From,To}|T], Result) when I rem From == 0 -> convert(I, T, [To|Result]);
+convert(I, [_|T], Result) -> convert(I, T, Result).
 
